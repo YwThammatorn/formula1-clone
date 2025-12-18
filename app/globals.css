@@ -1,8 +1,28 @@
 @import "tailwindcss";
 
-body {
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  background-color: #15151E;
+@layer base{
+  :root{
+    font-family: var(--font-f1);
+    font-weight: 700;
+  }
+
+  body {
+    font-size: 16px;
+    color: white;
+    background-color: #15151E;
+  }
+
+  button{
+    height: fit-content;
+    color: white;
+    background-color: #E10600;
+    padding: 4px 16px 3.5px;
+    border: 2px solid white;
+    border-radius: 1rem;
+  }
+
+  button:hover{
+    cursor: pointer;
+    background-color: #333;
+  }
 }
