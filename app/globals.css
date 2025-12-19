@@ -1,8 +1,12 @@
 @import "tailwindcss";
 
+@theme{
+  --font-f1: var(--font-orbit)
+}
+
 @layer base{
   :root{
-    font-family: var(--font-f1);
+    font-family: var(--font-titill);
     font-weight: 700;
   }
 
