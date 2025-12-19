@@ -1,8 +1,8 @@
 import "./globals.css"
-import { Titillium_Web } from 'next/font/google'
-import { Orbitron } from 'next/font/google'
+import { Titillium_Web, Orbitron, Alfa_Slab_One } from 'next/font/google'
 
 import Navbar from "@/components/Navbar"
+import Footer from "@/components/Footer"
 
 const titillium = Titillium_Web({
   subsets: ['latin'],
@@ -13,8 +13,15 @@ const titillium = Titillium_Web({
 
 const orbitron = Orbitron({
   subsets: ['latin'],
-  weight:['400','500'],
+  weight:['400','500','900'],
   variable: '--font-orbit',
+  display: 'swap',
+})
+
+const alfaslabone = Alfa_Slab_One({
+  subsets: ['latin'],
+  weight: ['400'],
+  variable: '--font-alfaslab1',
   display: 'swap',
 })
 
@@ -25,10 +32,11 @@ export default function RootLayout({
 }>) {
 
   return (
-    <html lang="en" className={`${titillium.variable} ${orbitron.variable}`}>
+    <html lang="en" className={`${titillium.variable} ${orbitron.variable} ${alfaslabone.variable}`}>
       <body className="relative">
         <Navbar />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );

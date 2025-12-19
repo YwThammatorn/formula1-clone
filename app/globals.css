@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
 @theme{
-  --font-f1: var(--font-orbit)
+  --font-f1: var(--font-orbit);
+  --font-f1-bold: var(--font-alfaslab1);
 }
 
 @layer base{

@@ -50,10 +50,10 @@ const Navbar = () => {
       {/* F1 navbar */}
       <div className='sticky top-0 left-0 bg-[#15151E] flex min-h-[72px] items-center z-1'>
         <div className='relative w-full bg-[repeating-linear-gradient(-45deg,#15151E,_#15151E_20px,#333_20px,_#333_50px,#15151E_50px,#15151E_55px,_#333_55px,#333_85px,#15151E_85px,#15151E_95px)]'>
-          <div className='absolute z-2 top-[0px] left-[0px] min-h-[72px] w-full bg-linear-to-t opacity-60 from-[#15151E] to-[#333]'></div>
+          <div className='absolute z-2 top-[0px] left-[0px] min-h-[72px] w-full bg-linear-to-t opacity-65 from-[#15151E] to-[#333]'></div>
           <div className='flex pl-[48px] items-center min-h-[72px] gap-[36px]'>
             <img className='relative z-3 w-[96px] h-[24px]' src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/F1.svg/250px-F1.svg.png?20210221014215" alt='f1_logo'/>
-            <div className="flex text-[16px] font-f1 font-[500] tracking-[1px] gap-[32px]">
+            <div className="flex text-[16px] font-f1 font-[500] tracking-[1px] gap-[36px]">
               <Navbtn title='Schedule' link='/'/>
               <Navbtn title='Results' link='/'/>
               <Navbtn title='News' link='/'/>
