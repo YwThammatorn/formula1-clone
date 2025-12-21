@@ -1,4 +1,5 @@
 import { Facebook,Twitter,Instagram,Youtube } from 'lucide-react'
+import { ChevronDown } from 'lucide-react'
 
 import Displaybtn from './Client/Displaybtn'
 
@@ -67,7 +68,7 @@ const Footer = () => {
                 <li className='pb-[5px] bg-[linear-gradient(#e10600_0_0)] bg-bottom-left bg-[length:0%_5px] bg-no-repeat transition-[background-size] duration-300 cursor-pointer hover:bg-[length:100%_5px]'>Teams</li>
                 <li className='pb-[5px] bg-[linear-gradient(#e10600_0_0)] bg-bottom-left bg-[length:0%_5px] bg-no-repeat transition-[background-size] duration-300 cursor-pointer hover:bg-[length:100%_5px]'>Fantasy & Gaming</li>
                 <li className='pb-[5px] bg-[linear-gradient(#e10600_0_0)] bg-bottom-left bg-[length:0%_5px] bg-no-repeat transition-[background-size] duration-300 cursor-pointer hover:bg-[length:100%_5px]'>Cookie Preferences</li>
-                <li className='pb-[5px] bg-[linear-gradient(#e10600_0_0)] bg-bottom-left bg-[length:0%_5px] bg-no-repeat transition-[background-size] duration-300 cursor-pointer hover:bg-[length:100%_5px]'>More</li>
+                <li className='flex items-center pb-[5px] bg-[linear-gradient(#e10600_0_0)] bg-bottom-left bg-[length:0%_5px] bg-no-repeat transition-[background-size] duration-300 cursor-pointer hover:bg-[length:100%_5px]'>More <ChevronDown className='w-[17px] h-[17px] pl-[3px]'/></li>
             </ul>
             <div className="flex gap-[24px]">
                 <img className='relative w-[64px] h-[16px]' src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/F1.svg/250px-F1.svg.png?20210221014215" alt='f1_logo'/>
@@ -90,7 +91,7 @@ const Footer = () => {
             </div>
 
             {/* warning */}
-            <p className='text-[12px] text-[#aaaaaa]'>&copy; 2025-2026 Website Inspired by Formula 1. Created for Educational Purpose Only</p>
+            <p className='text-[12px] text-[#aaaaaa]'>&copy; 2025-2026 Clone Website Inspired by Formula 1. Created for Educational Purpose Only</p>
         </div>
     </div>
   )

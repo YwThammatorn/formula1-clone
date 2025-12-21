@@ -3,12 +3,12 @@ import Link from "next/link"
 
 import { ChevronDown } from "lucide-react"
 
-interface strprop{
+interface prop{
     title: string,
     link: string
 }
 
-const Navbtn = ({title,link} : strprop) => {
+const Navbtn = ({title,link} : prop) => {
   return (
     <div className='relative z-3 flex justify-center items-center gap-[5px] border-transparent border-b-[2px] min-h-[72px] hover:border-b-[2px] hover:border-white hover:cursor-pointer'>
         <Link href={link}>{title}</Link>

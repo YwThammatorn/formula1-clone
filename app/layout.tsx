@@ -13,7 +13,7 @@ const titillium = Titillium_Web({
 
 const orbitron = Orbitron({
   subsets: ['latin'],
-  weight:['400','500','900'],
+  weight:['400','500','700','900'],
   variable: '--font-orbit',
   display: 'swap',
 })
