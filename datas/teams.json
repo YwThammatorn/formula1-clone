@@ -2,43 +2,56 @@
     "teams":[
         {
             "name":"McLaren",
-            "bgcolor": "#F47600"
+            "bgcolor": "#F47600",
+            "accolor": "#863400"
         },
         {
             "name":"Mercedes",
-            "bgcolor": "#00D7B6"
+            "bgcolor": "#00D7B6",
+            "accolor": "#007560"
         },
         {
             "name":"Red Bull Racing",
-            "bgcolor": "#4781D7"
+            "bgcolor": "#4781D7",
+            "accolor": "#003282"
         },
         {
             "name":"Ferrari",
-            "bgcolor": "#ED1131"
+            "bgcolor": "#ED1131",
+            "accolor": "#710006"
         },
         {
             "name":"Williams",
-            "bgcolor": "#1868DB"
+            "bgcolor": "#1868DB",
+            "accolor": "#000681"
         },
         {
             "name":"Racing Bulls",
-            "bgcolor": "#2345AB"
+            "bgcolor": "#6C98FF",
+            "accolor": "#2345AB"
         },
         {
             "name":"Aston Martin",
-            "bgcolor": "#229971"
+            "bgcolor": "#229971",
+            "accolor": "#00482C"
+
         },
         {
             "name":"Haas F1 Team",
-            "bgcolor": "#9C9FA2"
+            "bgcolor": "#9C9FA2",
+            "accolor": "#4D5052"
+
         },
         {
             "name":"Kick Sauber",
-            "bgcolor": "#01C00E"
+            "bgcolor": "#01C00E",
+            "accolor": "#006300"
+
         },
         {
             "name":"Alpine",
-            "bgcolor": "#00A1E8"
+            "bgcolor": "#00A1E8",
+            "accolor": "#005081"
         }
     ]
 }

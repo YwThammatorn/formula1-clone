@@ -48,7 +48,7 @@ const Navbar = () => {
       </div>
 
       {/* F1 navbar */}
-      <div className='sticky top-0 left-0 bg-[#15151E] border-b-[0.5px] border-[#333] flex min-h-[72px] items-center z-1'>
+      <div className='sticky top-0 left-0 bg-[#15151E] border-b-[0.5px] border-[#333] flex min-h-[72px] items-center z-10'>
         <div className='relative w-full bg-[repeating-linear-gradient(-45deg,#15151E,_#15151E_20px,#333_20px,_#333_50px,#15151E_50px,#15151E_55px,_#333_55px,#333_85px,#15151E_85px,#15151E_95px)]'>
           <div className='absolute z-2 top-[0px] left-[0px] min-h-[72px] w-full bg-linear-to-t opacity-65 from-[#15151E] to-[#333]'></div>
           <div className='flex pl-[48px] items-center min-h-[72px] gap-[36px]'>

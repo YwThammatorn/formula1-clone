@@ -2,8 +2,14 @@ import { Facebook,Twitter,Instagram,Youtube } from 'lucide-react'
 import { ChevronDown } from 'lucide-react'
 
 import Displaybtn from './Client/Displaybtn'
+import { CSSProperties } from 'react'
 
 const Footer = () => {
+
+  const triangleStyle : CSSProperties ={
+    clipPath: "polygon(0% 0%,100% 0%,0% 100%)" //triangle
+  }
+
   return (
     <div className='w-full'>
         {/* our partners black */}
@@ -73,7 +79,10 @@ const Footer = () => {
             <div className="flex gap-[24px]">
                 <img className='relative w-[64px] h-[16px]' src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/F1.svg/250px-F1.svg.png?20210221014215" alt='f1_logo'/>
                 {/* stripes */}
-                <div className="grid gap-[1px]">
+                <div className="relative flex flex-col gap-[1px]">
+                   <div className="absolute z-5 w-[7px] h-[7px] bg-[#15151E]"></div>
+                   <div className="absolute z-5 left-[7px] w-[7px] h-[7px] bg-[#15151E]" style={triangleStyle}></div>
+                   <div className="absolute z-5 top-[8px] w-[7px] h-[7px] bg-[#15151E]" style={triangleStyle}></div>
                    <div className="relative w-[87vw] h-[7px] bg-[#e10600]"></div>
                    <div className="relative w-[87vw] h-[7px] bg-[#e10600]"></div>
                 </div>
